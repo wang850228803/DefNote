@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Note</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_hint">请输入关键字</string>
+    <string name="search_button_text">搜索</string>
+    <string-array name="search_types">
+        <item>电影</item><item >书籍</item>
+        
+        <item >音乐</item>
+    </string-array>
+    <string-array name="poster_sizes">
+        <item >large</item>
+        <item >medium</item>
+        <item >small</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- preference的组织方式有PreferenceScreen和PreferenceCategory，PreferenceCategory是带层次组织关系，在后面的例子体验，而PreferenceScreen就是最平白和基础的方式 -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="SEARCH RESULT">
+        <ListPreference android:entries="@array/poster_sizes" android:entryValues="@array/poster_sizes" android:dialogTitle="Poster Size" android:title="Poster Size" android:defaultValue="medium" android:key="size"/>
+    </PreferenceCategory>
+</PreferenceScreen>
